@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445D44431B023C8200FE9423 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D44421B023C8200FE9423 /* main.m */; };
+		445D44461B023C8200FE9423 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D44451B023C8200FE9423 /* AppDelegate.m */; };
+		445D44491B023C8200FE9423 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D44481B023C8200FE9423 /* FirstViewController.m */; };
+		445D444C1B023C8200FE9423 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D444B1B023C8200FE9423 /* SecondViewController.m */; };
+		445D444F1B023C8200FE9423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445D444D1B023C8200FE9423 /* Main.storyboard */; };
+		445D44511B023C8200FE9423 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445D44501B023C8200FE9423 /* Images.xcassets */; };
+		445D44541B023C8200FE9423 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445D44521B023C8200FE9423 /* LaunchScreen.xib */; };
+		445D44601B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D445F1B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests.m */; };
+		445D446B1B023DC900FE9423 /* ImageNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D446A1B023DC900FE9423 /* ImageNavigationViewController.m */; };
+		445D44701B02541C00FE9423 /* XIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445D446E1B02541C00FE9423 /* XIBViewController.m */; };
+		445D44711B02541C00FE9423 /* XIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445D446F1B02541C00FE9423 /* XIBViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		445D445A1B023C8200FE9423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445D44351B023C8200FE9423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 445D443C1B023C8200FE9423;
+			remoteInfo = CrazyTabModalPushDogCatShit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		445D443D1B023C8200FE9423 /* CrazyTabModalPushDogCatShit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyTabModalPushDogCatShit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		445D44411B023C8200FE9423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445D44421B023C8200FE9423 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		445D44441B023C8200FE9423 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		445D44451B023C8200FE9423 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		445D44471B023C8200FE9423 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		445D44481B023C8200FE9423 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		445D444A1B023C8200FE9423 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		445D444B1B023C8200FE9423 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		445D444E1B023C8200FE9423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		445D44501B023C8200FE9423 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		445D44531B023C8200FE9423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		445D44591B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyTabModalPushDogCatShitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		445D445E1B023C8200FE9423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445D445F1B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyTabModalPushDogCatShitTests.m; sourceTree = "<group>"; };
+		445D44691B023DC900FE9423 /* ImageNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageNavigationViewController.h; sourceTree = "<group>"; };
+		445D446A1B023DC900FE9423 /* ImageNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageNavigationViewController.m; sourceTree = "<group>"; };
+		445D446D1B02541C00FE9423 /* XIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBViewController.h; sourceTree = "<group>"; };
+		445D446E1B02541C00FE9423 /* XIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XIBViewController.m; sourceTree = "<group>"; };
+		445D446F1B02541C00FE9423 /* XIBViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XIBViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		445D443A1B023C8200FE9423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445D44561B023C8200FE9423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445D44341B023C8200FE9423 = {
+			isa = PBXGroup;
+			children = (
+				445D443F1B023C8200FE9423 /* CrazyTabModalPushDogCatShit */,
+				445D445C1B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests */,
+				445D443E1B023C8200FE9423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		445D443E1B023C8200FE9423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445D443D1B023C8200FE9423 /* CrazyTabModalPushDogCatShit.app */,
+				445D44591B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445D443F1B023C8200FE9423 /* CrazyTabModalPushDogCatShit */ = {
+			isa = PBXGroup;
+			children = (
+				445D44441B023C8200FE9423 /* AppDelegate.h */,
+				445D44451B023C8200FE9423 /* AppDelegate.m */,
+				445D44471B023C8200FE9423 /* FirstViewController.h */,
+				445D44481B023C8200FE9423 /* FirstViewController.m */,
+				445D444D1B023C8200FE9423 /* Main.storyboard */,
+				445D44691B023DC900FE9423 /* ImageNavigationViewController.h */,
+				445D446A1B023DC900FE9423 /* ImageNavigationViewController.m */,
+				445D446C1B0243F100FE9423 /* SecondTabBar */,
+				445D44501B023C8200FE9423 /* Images.xcassets */,
+				445D44521B023C8200FE9423 /* LaunchScreen.xib */,
+				445D446D1B02541C00FE9423 /* XIBViewController.h */,
+				445D446E1B02541C00FE9423 /* XIBViewController.m */,
+				445D446F1B02541C00FE9423 /* XIBViewController.xib */,
+				445D44401B023C8200FE9423 /* Supporting Files */,
+			);
+			path = CrazyTabModalPushDogCatShit;
+			sourceTree = "<group>";
+		};
+		445D44401B023C8200FE9423 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				445D44411B023C8200FE9423 /* Info.plist */,
+				445D44421B023C8200FE9423 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		445D445C1B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests */ = {
+			isa = PBXGroup;
+			children = (
+				445D445F1B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests.m */,
+				445D445D1B023C8200FE9423 /* Supporting Files */,
+			);
+			path = CrazyTabModalPushDogCatShitTests;
+			sourceTree = "<group>";
+		};
+		445D445D1B023C8200FE9423 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				445D445E1B023C8200FE9423 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		445D446C1B0243F100FE9423 /* SecondTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				445D444A1B023C8200FE9423 /* SecondViewController.h */,
+				445D444B1B023C8200FE9423 /* SecondViewController.m */,
+			);
+			name = SecondTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445D443C1B023C8200FE9423 /* CrazyTabModalPushDogCatShit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445D44631B023C8200FE9423 /* Build configuration list for PBXNativeTarget "CrazyTabModalPushDogCatShit" */;
+			buildPhases = (
+				445D44391B023C8200FE9423 /* Sources */,
+				445D443A1B023C8200FE9423 /* Frameworks */,
+				445D443B1B023C8200FE9423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyTabModalPushDogCatShit;
+			productName = CrazyTabModalPushDogCatShit;
+			productReference = 445D443D1B023C8200FE9423 /* CrazyTabModalPushDogCatShit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		445D44581B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445D44661B023C8200FE9423 /* Build configuration list for PBXNativeTarget "CrazyTabModalPushDogCatShitTests" */;
+			buildPhases = (
+				445D44551B023C8200FE9423 /* Sources */,
+				445D44561B023C8200FE9423 /* Frameworks */,
+				445D44571B023C8200FE9423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445D445B1B023C8200FE9423 /* PBXTargetDependency */,
+			);
+			name = CrazyTabModalPushDogCatShitTests;
+			productName = CrazyTabModalPushDogCatShitTests;
+			productReference = 445D44591B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		445D44351B023C8200FE9423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = anand;
+				TargetAttributes = {
+					445D443C1B023C8200FE9423 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					445D44581B023C8200FE9423 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 445D443C1B023C8200FE9423;
+					};
+				};
+			};
+			buildConfigurationList = 445D44381B023C8200FE9423 /* Build configuration list for PBXProject "CrazyTabModalPushDogCatShit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 445D44341B023C8200FE9423;
+			productRefGroup = 445D443E1B023C8200FE9423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				445D443C1B023C8200FE9423 /* CrazyTabModalPushDogCatShit */,
+				445D44581B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		445D443B1B023C8200FE9423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D44711B02541C00FE9423 /* XIBViewController.xib in Resources */,
+				445D444F1B023C8200FE9423 /* Main.storyboard in Resources */,
+				445D44541B023C8200FE9423 /* LaunchScreen.xib in Resources */,
+				445D44511B023C8200FE9423 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445D44571B023C8200FE9423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		445D44391B023C8200FE9423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D444C1B023C8200FE9423 /* SecondViewController.m in Sources */,
+				445D44461B023C8200FE9423 /* AppDelegate.m in Sources */,
+				445D44491B023C8200FE9423 /* FirstViewController.m in Sources */,
+				445D44431B023C8200FE9423 /* main.m in Sources */,
+				445D44701B02541C00FE9423 /* XIBViewController.m in Sources */,
+				445D446B1B023DC900FE9423 /* ImageNavigationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445D44551B023C8200FE9423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445D44601B023C8200FE9423 /* CrazyTabModalPushDogCatShitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		445D445B1B023C8200FE9423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 445D443C1B023C8200FE9423 /* CrazyTabModalPushDogCatShit */;
+			targetProxy = 445D445A1B023C8200FE9423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		445D444D1B023C8200FE9423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445D444E1B023C8200FE9423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		445D44521B023C8200FE9423 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445D44531B023C8200FE9423 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		445D44611B023C8200FE9423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		445D44621B023C8200FE9423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		445D44641B023C8200FE9423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrazyTabModalPushDogCatShit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		445D44651B023C8200FE9423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrazyTabModalPushDogCatShit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		445D44671B023C8200FE9423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrazyTabModalPushDogCatShitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyTabModalPushDogCatShit.app/CrazyTabModalPushDogCatShit";
+			};
+			name = Debug;
+		};
+		445D44681B023C8200FE9423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrazyTabModalPushDogCatShitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrazyTabModalPushDogCatShit.app/CrazyTabModalPushDogCatShit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		445D44381B023C8200FE9423 /* Build configuration list for PBXProject "CrazyTabModalPushDogCatShit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445D44611B023C8200FE9423 /* Debug */,
+				445D44621B023C8200FE9423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445D44631B023C8200FE9423 /* Build configuration list for PBXNativeTarget "CrazyTabModalPushDogCatShit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445D44641B023C8200FE9423 /* Debug */,
+				445D44651B023C8200FE9423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		445D44661B023C8200FE9423 /* Build configuration list for PBXNativeTarget "CrazyTabModalPushDogCatShitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445D44671B023C8200FE9423 /* Debug */,
+				445D44681B023C8200FE9423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 445D44351B023C8200FE9423 /* Project object */;
+}
